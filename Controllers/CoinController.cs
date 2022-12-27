@@ -20,8 +20,8 @@ public class CoinController : ControllerBase
     }
 
     [HttpGet("{coinName}")]
-    public IMessage Get([FromRoute] string coinName)
+    public IMessage<string> Get([FromRoute] string coinName)
     {
-        return new ResponseMessage.Success();
+        return ResponseMessage<string>.Success(coinName, null);
     }
 }
