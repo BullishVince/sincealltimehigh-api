@@ -12,3 +12,18 @@
 
 ATH and ATL prices should be cached but currentPrice can be fetched in realtime
 
+
+Stocks API request:
+https://query1.finance.yahoo.com/v7/finance/download/MSFT?period1=946684800&period2=1676764800&interval=1d&events=history&includeAdjustedClose=true
+
+https://query1.finance.yahoo.com/v7/finance/download/SEB-A.ST?period1=1010188800&period2=1676764800&interval=1d&events=history&includeAdjustedClose=true
+
+
+https://query1.finance.yahoo.com/v7/finance/download/${ticker}?period1=946684800&period2=1676764800&interval=1d&events=history&includeAdjustedClose=true
+
+
+Get list of tickers:
+https://companiesmarketcap.com/sweden/largest-companies-in-sweden-by-market-cap/?download=csv
+
+https://companiesmarketcap.com/${country}/largest-companies-in-${country}-by-market-cap/?download=csv
+

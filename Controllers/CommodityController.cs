@@ -5,16 +5,16 @@ namespace SinceAllTimeHigh.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class CoinController : ControllerBase
+public class CommodityController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-    private readonly ILogger<CoinController> _logger;
+    private readonly ILogger<CommodityController> _logger;
 
-    public CoinController(ILogger<CoinController> logger)
+    public CommodityController(ILogger<CommodityController> logger)
     {
         _logger = logger;
     }
