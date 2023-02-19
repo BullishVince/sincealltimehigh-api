@@ -1,0 +1,14 @@
+
+/assets/discover
+
+/assets/crypto
+/assets/stocks
+/assets/forex
+/assets/commodities
+
+/assets/crypto/top-performers?interval=daily
+/assets/crypto/top-performers?interval=weekly
+
+
+ATH and ATL prices should be cached but currentPrice can be fetched in realtime
+
