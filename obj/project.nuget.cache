@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EFSquFmJVDBH04Rn8OFYXrZq2moz0ZvM+1ZKMVvWO2yV5K1O2dSPp3I8UOgEzQmyqdpZWFDr26cZZtooQm8FWQ==",
+  "dgSpecHash": "mqOwETeeVo54kFHyzz1GqCfQeEMZ9T7kWTlzYShL4YbVtwXiRVOCogCQl7w8Io/t1eH+dwXBQcQO3LVxY8x2UQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vince\\dev\\git\\sincealltimehigh-api\\sincealltimehigh-api.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\vince\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\vince\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

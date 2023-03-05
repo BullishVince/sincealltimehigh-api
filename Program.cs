@@ -1,15 +1,19 @@
-var builder = WebApplication.CreateBuilder(args);
+using Serilog;
+using SinceAllTimeHigh.Config;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
+var _settings = new ApplicationSettings();
+builder.Configuration.Bind(_settings);
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddServices(_settings);
+builder.Services.AddMocks(_settings);
+builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

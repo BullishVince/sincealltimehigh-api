@@ -1,4 +1,4 @@
-namespace SinceAllTimeHigh.Infrastructure.Models;
+namespace SinceAllTimeHigh.Config.Models;
 public enum Status {
     Success,
     Info,

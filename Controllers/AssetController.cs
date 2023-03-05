@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using SinceAllTimeHigh.Infrastructure.Models;
+using SinceAllTimeHigh.Config.Models;
 
 namespace SinceAllTimeHigh.Controllers;
 
