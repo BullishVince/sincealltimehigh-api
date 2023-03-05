@@ -15,6 +15,7 @@ public static class ServiceBootstrapper {
         //Add scoped service below
         // services.AddScoped<IAssetPairRepository, AssetPairRepository>();
         services.AddScoped<IDumbStockApiClient>(x => new DumbStockApiClient(settings.DumbStockApiUrl));
+        services.AddScoped<IYahooFinanceClient>(x => new YahooFinanceClient(settings.YahooFinanceUrl));
         
         return services;
     }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mqOwETeeVo54kFHyzz1GqCfQeEMZ9T7kWTlzYShL4YbVtwXiRVOCogCQl7w8Io/t1eH+dwXBQcQO3LVxY8x2UQ==",
+  "dgSpecHash": "A4p531sx2DR3DM0wRBTvXxLg9r4DaZucl7Gkm2cKU8q0TmiZycRdM8//bsUpqHzbCsY4ksrQo0xFP830QlBNhQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vince\\dev\\git\\sincealltimehigh-api\\sincealltimehigh-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vince\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
+    "C:\\Users\\vince\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\fakeiteasy\\7.3.1\\fakeiteasy.7.3.1.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

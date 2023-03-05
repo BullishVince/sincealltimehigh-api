@@ -1,4 +1,4 @@
-using System.Text.Json.Serialization;
+using CsvHelper.Configuration.Attributes;
 
 namespace SinceAllTimeHigh.Clients.Models.YahooFinanceClient;
 public class YahooFinancePrice {
@@ -10,7 +10,9 @@ public class YahooFinancePrice {
     public decimal High { get; set; }
     public decimal Low { get; set; }
     public decimal Close { get; set; }
-    [JsonPropertyName("Adj Close")]
+    [Name("Adj Close")]
     public decimal AdjustedClose { get; set; }
     public decimal Volume { get; set; }
+    [Ignore]
+    public string Ticker { get; set; }
 }

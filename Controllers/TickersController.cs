@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using SinceAllTimeHigh.Clients.Models.YahooFinanceClient;
 using SinceAllTimeHigh.Config.Models;
 using SinceAllTimeHigh.Services;
 using static SinceAllTimeHigh.Constants;
@@ -21,8 +22,14 @@ public class TickersController : ControllerBase
     [HttpGet]
     public async Task<IMessage<IEnumerable<string>>> GetTickers([FromQuery] string? exchanges)
     {
-        var tickers = await _tickersService.GetAllTickersForAnExchange(exchanges);
+        var result = await _tickersService.GetAllTickersForAnExchange(exchanges);
+        return ResponseMessage<IEnumerable<string>>.Success(ResponseInformation.Success, result);
+    }
 
-        return ResponseMessage<IEnumerable<string>>.Success(ResponseInformation.Success, tickers);
+    [HttpGet("{ticker}")]
+    public async Task<IMessage<YahooFinancePrice>> GetLatestDailyPriceForTicker([FromRoute] string ticker)
+    {
+        var result = await _tickersService.GetLatestDailyPriceForTicker(ticker);
+        return ResponseMessage<YahooFinancePrice>.Success(ResponseInformation.Success, result);
     }
 }
