@@ -1,0 +1,23 @@
+{
+  "name": "sincealltimehigh-api",
+  "version": "1.0.0",
+  "description": "example API endpoint: https://api.coingecko.com/api/v3/coins/bitcoin/ohlc?vs_currency=usd&days=max",
+  "main": "get-swedish-tickers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BullishVince/sincealltimehigh-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BullishVince/sincealltimehigh-api/issues"
+  },
+  "homepage": "https://github.com/BullishVince/sincealltimehigh-api#readme",
+  "devDependencies": {
+    "axios": "^1.3.4",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
